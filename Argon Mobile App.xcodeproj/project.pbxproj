@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1407D40E1D25A3DE0007E9AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D40D1D25A3DE0007E9AF /* AppDelegate.swift */; };
+		1407D4101D25A3DE0007E9AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D40F1D25A3DE0007E9AF /* ViewController.swift */; };
+		1407D4131D25A3DE0007E9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1407D4111D25A3DE0007E9AF /* Main.storyboard */; };
+		1407D4151D25A3DE0007E9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1407D4141D25A3DE0007E9AF /* Assets.xcassets */; };
+		1407D4181D25A3DE0007E9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1407D4161D25A3DE0007E9AF /* LaunchScreen.storyboard */; };
+		1407D4231D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D4221D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift */; };
+		1407D42E1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1407D41F1D25A3DE0007E9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1407D4021D25A3DE0007E9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1407D4091D25A3DE0007E9AF;
+			remoteInfo = "Argon Mobile App";
+		};
+		1407D42A1D25A3DE0007E9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1407D4021D25A3DE0007E9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1407D4091D25A3DE0007E9AF;
+			remoteInfo = "Argon Mobile App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1407D40A1D25A3DE0007E9AF /* Argon Mobile App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Argon Mobile App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1407D40D1D25A3DE0007E9AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1407D40F1D25A3DE0007E9AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1407D4121D25A3DE0007E9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1407D4141D25A3DE0007E9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1407D4171D25A3DE0007E9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1407D4191D25A3DE0007E9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1407D41E1D25A3DE0007E9AF /* Argon Mobile AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argon Mobile AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1407D4221D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argon_Mobile_AppTests.swift; sourceTree = "<group>"; };
+		1407D4241D25A3DE0007E9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1407D4291D25A3DE0007E9AF /* Argon Mobile AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argon Mobile AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argon_Mobile_AppUITests.swift; sourceTree = "<group>"; };
+		1407D42F1D25A3DE0007E9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1407D4071D25A3DE0007E9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407D41B1D25A3DE0007E9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407D4261D25A3DE0007E9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1407D4011D25A3DE0007E9AF = {
+			isa = PBXGroup;
+			children = (
+				1407D40C1D25A3DE0007E9AF /* Argon Mobile App */,
+				1407D4211D25A3DE0007E9AF /* Argon Mobile AppTests */,
+				1407D42C1D25A3DE0007E9AF /* Argon Mobile AppUITests */,
+				1407D40B1D25A3DE0007E9AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1407D40B1D25A3DE0007E9AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1407D40A1D25A3DE0007E9AF /* Argon Mobile App.app */,
+				1407D41E1D25A3DE0007E9AF /* Argon Mobile AppTests.xctest */,
+				1407D4291D25A3DE0007E9AF /* Argon Mobile AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1407D40C1D25A3DE0007E9AF /* Argon Mobile App */ = {
+			isa = PBXGroup;
+			children = (
+				1407D40D1D25A3DE0007E9AF /* AppDelegate.swift */,
+				1407D40F1D25A3DE0007E9AF /* ViewController.swift */,
+				1407D4111D25A3DE0007E9AF /* Main.storyboard */,
+				1407D4141D25A3DE0007E9AF /* Assets.xcassets */,
+				1407D4161D25A3DE0007E9AF /* LaunchScreen.storyboard */,
+				1407D4191D25A3DE0007E9AF /* Info.plist */,
+			);
+			path = "Argon Mobile App";
+			sourceTree = "<group>";
+		};
+		1407D4211D25A3DE0007E9AF /* Argon Mobile AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1407D4221D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift */,
+				1407D4241D25A3DE0007E9AF /* Info.plist */,
+			);
+			path = "Argon Mobile AppTests";
+			sourceTree = "<group>";
+		};
+		1407D42C1D25A3DE0007E9AF /* Argon Mobile AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */,
+				1407D42F1D25A3DE0007E9AF /* Info.plist */,
+			);
+			path = "Argon Mobile AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1407D4091D25A3DE0007E9AF /* Argon Mobile App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1407D4321D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile App" */;
+			buildPhases = (
+				1407D4061D25A3DE0007E9AF /* Sources */,
+				1407D4071D25A3DE0007E9AF /* Frameworks */,
+				1407D4081D25A3DE0007E9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Argon Mobile App";
+			productName = "Argon Mobile App";
+			productReference = 1407D40A1D25A3DE0007E9AF /* Argon Mobile App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1407D41D1D25A3DE0007E9AF /* Argon Mobile AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1407D4351D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile AppTests" */;
+			buildPhases = (
+				1407D41A1D25A3DE0007E9AF /* Sources */,
+				1407D41B1D25A3DE0007E9AF /* Frameworks */,
+				1407D41C1D25A3DE0007E9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1407D4201D25A3DE0007E9AF /* PBXTargetDependency */,
+			);
+			name = "Argon Mobile AppTests";
+			productName = "Argon Mobile AppTests";
+			productReference = 1407D41E1D25A3DE0007E9AF /* Argon Mobile AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1407D4281D25A3DE0007E9AF /* Argon Mobile AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1407D4381D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile AppUITests" */;
+			buildPhases = (
+				1407D4251D25A3DE0007E9AF /* Sources */,
+				1407D4261D25A3DE0007E9AF /* Frameworks */,
+				1407D4271D25A3DE0007E9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1407D42B1D25A3DE0007E9AF /* PBXTargetDependency */,
+			);
+			name = "Argon Mobile AppUITests";
+			productName = "Argon Mobile AppUITests";
+			productReference = 1407D4291D25A3DE0007E9AF /* Argon Mobile AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1407D4021D25A3DE0007E9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Argon Credit";
+				TargetAttributes = {
+					1407D4091D25A3DE0007E9AF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1407D41D1D25A3DE0007E9AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1407D4091D25A3DE0007E9AF;
+					};
+					1407D4281D25A3DE0007E9AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1407D4091D25A3DE0007E9AF;
+					};
+				};
+			};
+			buildConfigurationList = 1407D4051D25A3DE0007E9AF /* Build configuration list for PBXProject "Argon Mobile App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1407D4011D25A3DE0007E9AF;
+			productRefGroup = 1407D40B1D25A3DE0007E9AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1407D4091D25A3DE0007E9AF /* Argon Mobile App */,
+				1407D41D1D25A3DE0007E9AF /* Argon Mobile AppTests */,
+				1407D4281D25A3DE0007E9AF /* Argon Mobile AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1407D4081D25A3DE0007E9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407D4181D25A3DE0007E9AF /* LaunchScreen.storyboard in Resources */,
+				1407D4151D25A3DE0007E9AF /* Assets.xcassets in Resources */,
+				1407D4131D25A3DE0007E9AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407D41C1D25A3DE0007E9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407D4271D25A3DE0007E9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1407D4061D25A3DE0007E9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407D4101D25A3DE0007E9AF /* ViewController.swift in Sources */,
+				1407D40E1D25A3DE0007E9AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407D41A1D25A3DE0007E9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407D4231D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407D4251D25A3DE0007E9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407D42E1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1407D4201D25A3DE0007E9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1407D4091D25A3DE0007E9AF /* Argon Mobile App */;
+			targetProxy = 1407D41F1D25A3DE0007E9AF /* PBXContainerItemProxy */;
+		};
+		1407D42B1D25A3DE0007E9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1407D4091D25A3DE0007E9AF /* Argon Mobile App */;
+			targetProxy = 1407D42A1D25A3DE0007E9AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1407D4111D25A3DE0007E9AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1407D4121D25A3DE0007E9AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1407D4161D25A3DE0007E9AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1407D4171D25A3DE0007E9AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1407D4301D25A3DE0007E9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1407D4311D25A3DE0007E9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1407D4331D25A3DE0007E9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Argon Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "argon.Argon-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1407D4341D25A3DE0007E9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Argon Mobile App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "argon.Argon-Mobile-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1407D4361D25A3DE0007E9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Argon Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "argon.Argon-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Argon Mobile App.app/Argon Mobile App";
+			};
+			name = Debug;
+		};
+		1407D4371D25A3DE0007E9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Argon Mobile AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "argon.Argon-Mobile-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Argon Mobile App.app/Argon Mobile App";
+			};
+			name = Release;
+		};
+		1407D4391D25A3DE0007E9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Argon Mobile AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "argon.Argon-Mobile-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Argon Mobile App";
+			};
+			name = Debug;
+		};
+		1407D43A1D25A3DE0007E9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Argon Mobile AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "argon.Argon-Mobile-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Argon Mobile App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1407D4051D25A3DE0007E9AF /* Build configuration list for PBXProject "Argon Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407D4301D25A3DE0007E9AF /* Debug */,
+				1407D4311D25A3DE0007E9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1407D4321D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407D4331D25A3DE0007E9AF /* Debug */,
+				1407D4341D25A3DE0007E9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1407D4351D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407D4361D25A3DE0007E9AF /* Debug */,
+				1407D4371D25A3DE0007E9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1407D4381D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407D4391D25A3DE0007E9AF /* Debug */,
+				1407D43A1D25A3DE0007E9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1407D4021D25A3DE0007E9AF /* Project object */;
+}
