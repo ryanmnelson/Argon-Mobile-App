@@ -14,6 +14,7 @@
 		1407D4181D25A3DE0007E9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1407D4161D25A3DE0007E9AF /* LaunchScreen.storyboard */; };
 		1407D4231D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D4221D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift */; };
 		1407D42E1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */; };
+		1407D43C1D25A9DA0007E9AF /* argon logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1407D43B1D25A9DA0007E9AF /* argon logo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1407D4291D25A3DE0007E9AF /* Argon Mobile AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argon Mobile AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argon_Mobile_AppUITests.swift; sourceTree = "<group>"; };
 		1407D42F1D25A3DE0007E9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1407D43B1D25A9DA0007E9AF /* argon logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "argon logo.jpeg"; path = "../../../Documents/argon logo.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				1407D40F1D25A3DE0007E9AF /* ViewController.swift */,
 				1407D4111D25A3DE0007E9AF /* Main.storyboard */,
 				1407D4141D25A3DE0007E9AF /* Assets.xcassets */,
+				1407D43B1D25A9DA0007E9AF /* argon logo.jpeg */,
 				1407D4161D25A3DE0007E9AF /* LaunchScreen.storyboard */,
 				1407D4191D25A3DE0007E9AF /* Info.plist */,
 			);
@@ -232,6 +235,7 @@
 				1407D4181D25A3DE0007E9AF /* LaunchScreen.storyboard in Resources */,
 				1407D4151D25A3DE0007E9AF /* Assets.xcassets in Resources */,
 				1407D4131D25A3DE0007E9AF /* Main.storyboard in Resources */,
+				1407D43C1D25A9DA0007E9AF /* argon logo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
