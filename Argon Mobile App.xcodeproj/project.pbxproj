@@ -15,6 +15,7 @@
 		1407D4231D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D4221D25A3DE0007E9AF /* Argon_Mobile_AppTests.swift */; };
 		1407D42E1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */; };
 		1407D43C1D25A9DA0007E9AF /* argon logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1407D43B1D25A9DA0007E9AF /* argon logo.jpeg */; };
+		B1CA761B1D25BF9300FF84F9 /* AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png in Resources */ = {isa = PBXBuildFile; fileRef = B1CA761A1D25BF9300FF84F9 /* AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1407D42D1D25A3DE0007E9AF /* Argon_Mobile_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argon_Mobile_AppUITests.swift; sourceTree = "<group>"; };
 		1407D42F1D25A3DE0007E9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1407D43B1D25A9DA0007E9AF /* argon logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "argon logo.jpeg"; path = "../../../Documents/argon logo.jpeg"; sourceTree = "<group>"; };
+		B1CA761A1D25BF9300FF84F9 /* AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png; path = ../../AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1407D4111D25A3DE0007E9AF /* Main.storyboard */,
 				1407D4141D25A3DE0007E9AF /* Assets.xcassets */,
 				1407D43B1D25A9DA0007E9AF /* argon logo.jpeg */,
+				B1CA761A1D25BF9300FF84F9 /* AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png */,
 				1407D4161D25A3DE0007E9AF /* LaunchScreen.storyboard */,
 				1407D4191D25A3DE0007E9AF /* Info.plist */,
 			);
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1407D4181D25A3DE0007E9AF /* LaunchScreen.storyboard in Resources */,
+				B1CA761B1D25BF9300FF84F9 /* AAEAAQAAAAAAAARiAAAAJDc1MmFlZWM4LTViZjctNDQ0OS05YzNkLTNjNWEyYWZmNmUzNw.png in Resources */,
 				1407D4151D25A3DE0007E9AF /* Assets.xcassets in Resources */,
 				1407D4131D25A3DE0007E9AF /* Main.storyboard in Resources */,
 				1407D43C1D25A9DA0007E9AF /* argon logo.jpeg in Resources */,
@@ -488,6 +492,7 @@
 				1407D4341D25A3DE0007E9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1407D4351D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile AppTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				1407D4371D25A3DE0007E9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1407D4381D25A3DE0007E9AF /* Build configuration list for PBXNativeTarget "Argon Mobile AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				1407D43A1D25A3DE0007E9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
